@@ -1,0 +1,152 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("../img/background.jpg")
+}
+
+header{
+    background-color: rgba(245, 245, 245, 0.808);
+    display: flex;
+    border-bottom: 2px solid #e609ab;
+}
+
+.logo{
+    display: flex;
+    margin-left: 80px;
+    gap:35px;
+}
+
+header div img{
+    width: 50px;
+}
+
+.rainbow{
+    color: #e609ab;
+
+}
+
+.menu{
+    margin: auto 90px auto auto;
+}
+
+.menu ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #e609ab;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    color: #ba29c4;
+    transition: .3s;
+}
+
+#container{
+    margin: 50px auto;
+    background-color: rgba(245, 245, 245, 0.808);
+    width: 50vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #e609ab;
+}
+
+#container h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+#container p {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+}
+
+#catGen{
+    margin:0px 33%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:#e609ab;
+    color: rgb(255, 255, 255);
+    border: 0px;
+}
+
+#catGen:hover{
+    background-color: #ba29c4;
+    transition: .3s;
+}
+
+#card-holder{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100%;
+}
+
+.card{
+    margin-top: 50px;
+    width: 320px;
+    height: 420px;
+    background-color: rgba(245, 245, 245, 0.808);
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.photo{
+    margin: 20px 55px;
+    justify-content: center;
+    
+    border: 2px solid black;
+    
+}
+
+.texto{
+    font-size: 15px;
+    display: flex;
+    margin: 15px;
+}
+
+
+footer{
+    
+    margin-top: 390px;
+    width:100%;
+    background-color: rgba(245, 245, 245, 0.808)    ;
+    display: flex;
+    border-top: 2px solid #e609ab;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#info{
+    font-size: 15px;
+    margin-left: 15px;
+    padding:15px
+}
+
+#info p{
+    padding: 0px;
+    margin:0px;
+}
+
+#contacts{
+    margin-right: 80px;
+    display: flex;
+    gap:25px;
+}
+
+#contacts img{
+    width: 40px;
+}
+
